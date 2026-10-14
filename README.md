@@ -1,10 +1,13 @@
-# Redes Neurais — MLP implementada do zero × Scikit-Learn
+# Redes Neurais — trabalhos da disciplina
 
-Notebook: [`mlp_numpy_vs_sklearn.ipynb`](mlp_numpy_vs_sklearn.ipynb)
+## Notebooks
 
-Implementação de um Multi Layer Perceptron usando apenas NumPy, configurável na quantidade de camadas,
-na quantidade de neurônios por camada e na função de ativação de cada camada, comparado com o
-`MLPClassifier`/`MLPRegressor` do Scikit-Learn.
+| Notebook | Tarefa |
+|---|---|
+| [`01_mlp_numpy_vs_sklearn.ipynb`](01_mlp_numpy_vs_sklearn.ipynb) | MLP implementada do zero (NumPy), configurável em camadas, neurônios e ativações, comparada com o Scikit-Learn |
+| [`02_cnn_mnist.ipynb`](02_cnn_mnist.ipynb) | Download e leitura dos arquivos originais do MNIST (formato IDX), pré-processamento e rede convolucional em PyTorch |
+
+O notebook do MNIST baixa os dados automaticamente para `dados/mnist/` (pasta ignorada pelo git).
 
 ## Como executar
 
@@ -12,5 +15,5 @@ na quantidade de neurônios por camada e na função de ativação de cada camad
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-jupyter notebook mlp_numpy_vs_sklearn.ipynb
+jupyter notebook
 ```
