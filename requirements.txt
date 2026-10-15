@@ -3,5 +3,6 @@ pandas>=2.0
 matplotlib>=3.8
 scikit-learn>=1.4
 torch
+tensorflow>=2.16
 transformers>=4.40
 jupyter
